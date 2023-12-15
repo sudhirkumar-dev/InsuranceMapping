@@ -105,31 +105,29 @@ function createPartyDoList(membersData, healthData) {
   const partyDoList = [];
   function createPartyQuestionList(memberDetails) {
     const questionList = [];
-
     for (const category in memberDetails.pedDetails) {
-      console.log(category)
-
+      // console.log(category)
         const categoryDetails = memberDetails.pedDetails[category];
-        console.log(categoryDetails)
+        // console.log(categoryDetails)
         for(const key in keyMapping){
-          console.log(key)
+          // console.log(key)
           if(keyMapping[key].questionSetCd === category){
             let code = keyMapping[key].questionCd;
             let categoryChecked = categoryDetails.checked;
             let pedSince = categoryDetails.since;
             let existingSince = keyMapping[key].existing;
-            console.log(existingSince)
-            console.log(categoryChecked)
-            console.log(code,pedSince)
+            // console.log(existingSince)
+            // console.log(categoryChecked)
+            // console.log(code,pedSince)
             questionList.push({
                 questionSetCd:category,
-                questionCd:code,
+                questionCd:code  === undefined ? "" : code,
                 response:categoryChecked
             })
             questionList.push({
               questionSetCd:category,
-              questionCd:existingSince,
-              response:pedSince
+              questionCd:existingSince === undefined ? "" : existingSince,
+              response:pedSince 
             })
           }
         }
@@ -264,4 +262,4 @@ function createPartyDoList(membersData, healthData) {
 
 // Assuming healthData is provided in the correct structure
 const partyDoList = createPartyDoList(frontEndData["membersData"], frontEndData["dataForAPI"]);
-console.log(partyDoList);
+console.log("partyDolist",partyDoList);

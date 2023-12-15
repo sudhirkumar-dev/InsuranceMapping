@@ -86,12 +86,12 @@
                     "since": ""
                 },
                 "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
+                    "checked": "YES",
+                    "since": "12/2012"
                 },
                 "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
+                    "checked": "YES",
+                    "since": "1/2018"
                 },
                 "PEDjointpainDetails": {
                     "checked": "NO",
