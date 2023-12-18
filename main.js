@@ -105,20 +105,16 @@ function createPartyDoList(membersData, healthData) {
   const partyDoList = [];
   function createPartyQuestionList(memberDetails) {
     const questionList = [];
+    let addedPedExistsRecord = false;
     for (const category in memberDetails.pedDetails) {
-      // console.log(category)
+      let pedExists = memberDetails.checked;
         const categoryDetails = memberDetails.pedDetails[category];
-        // console.log(categoryDetails)
         for(const key in keyMapping){
-          // console.log(key)
           if(keyMapping[key].questionSetCd === category){
             let code = keyMapping[key].questionCd;
             let categoryChecked = categoryDetails.checked;
             let pedSince = categoryDetails.since;
             let existingSince = keyMapping[key].existing;
-            // console.log(existingSince)
-            // console.log(categoryChecked)
-            // console.log(code,pedSince)
             questionList.push({
                 questionSetCd:category,
                 questionCd:code  === undefined ? "" : code,
@@ -128,7 +124,15 @@ function createPartyDoList(membersData, healthData) {
               questionSetCd:category,
               questionCd:existingSince === undefined ? "" : existingSince,
               response:pedSince 
-            })
+            });
+            if(!addedPedExistsRecord){
+              questionList.push({
+                questionSetCd: 'yesNoExist',
+                questionCd: 'pedYesNo',
+                response: pedExists
+              });
+              addedPedExistsRecord=true;
+            }
           }
         }
     }

@@ -71,7 +71,7 @@
     },
     "dataForAPI": {
         "self": {
-            "checked": "NO",
+            "checked": "YES",
             "pedDetails": {
                 "PEDdiabetesDetails": {
                     "checked": "NO",
@@ -156,7 +156,7 @@
             }
         },
         "spouse": {
-            "checked": "NO",
+            "checked": "YES",
             "pedDetails": {
                 "PEDdiabetesDetails": {
                     "checked": "NO",
@@ -241,7 +241,7 @@
             }
         },
         "son": {
-            "checked": "NO",
+            "checked": "YES",
             "pedDetails": {
                 "PEDdiabetesDetails": {
                     "checked": "NO",
