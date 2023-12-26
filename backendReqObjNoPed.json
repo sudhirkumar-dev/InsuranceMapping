@@ -1,0 +1,132 @@
+{
+    "intPolicyDataIO": {
+      "policy": {
+        "businessTypeCd": "NEWBUSINESS",
+        "baseProductId": "10001117",
+        "baseAgentId": "20008325",
+        "coverType": "INDIVIDUAL",
+        "partyDOList": [
+          {
+            "birthDt": "08/12/1991",
+            "firstName": "kpqui",
+            "genderCd": "MALE",
+            "height": "99",
+            "weight": "70",
+            "guid": "QN6237993",
+            "lastName": "kka",
+            "partyAddressDOList": [
+              {
+                "addressLine1Lang1": "1206",
+                "addressLine2Lang1": "Maruthi nagar",
+                "addressTypeCd": "PERMANENT",
+                "areaCd": "Nalgonda",
+                "cityCd": "Nalgonda",
+                "stateCd": "ANDHRA PRADESH",
+                "pinCode": "560072"
+              },
+              {
+                "addressLine1Lang1": "1206",
+                "addressLine2Lang1": "Maruthi nagar",
+                "addressTypeCd": "COMMUNICATION",
+                "areaCd": "Nalgonda",
+                "cityCd": "Nalgonda",
+                "pinCode": "560072",
+                "stateCd": "ANDHRA PRADESH"
+              }
+            ],
+            "partyContactDOList": [
+              {
+                "contactNum": "9892398089",
+                "contactTypeCd": "MOBILE",
+                "stdCode": "+91"
+              }
+            ],
+            "partyEmailDOList": [
+              {
+                "emailAddress": "karan.churi@workindia.in",
+                "emailTypeCd": "PERSONAL"
+              }
+            ],
+            "partyIdentityDOList": [
+              {
+                "identityTypeCd": "PAN"
+              }
+            ],
+            "relationCd": "SELF",
+            "roleCd": "PROPOSER",
+            "titleCd": "MR",
+            "partyQuestionDOList": [
+              
+            ]
+          },
+          {
+            "birthDt": "08/12/1991",
+            "firstName": "oqdwkpp",
+            "genderCd": "MALE",
+            "guid": "QN6237993",
+            "height": "99",
+            "weight": "70",
+            "lastName": "kmsxsk",
+            "partyAddressDOList": [
+              {
+                "addressLine1Lang1": "1206",
+                "addressLine2Lang1": "Maruthi nagar",
+                "addressTypeCd": "PERMANENT",
+                "areaCd": "Nalgonda",
+                "cityCd": "Nalgonda",
+                "stateCd": "ANDHRA PRADESH",
+                "pinCode": "560072"
+              },
+              {
+                "addressLine1Lang1": "1206",
+                "addressLine2Lang1": "Maruthi nagar",
+                "addressTypeCd": "COMMUNICATION",
+                "areaCd": "Nalgonda",
+                "cityCd": "Nalgonda",
+                "pinCode": "560072",
+                "stateCd": "ANDHRA PRADESH"
+              }
+            ],
+            "partyContactDOList": [
+              {
+                "contactNum": "9757184521",
+                "contactTypeCd": "MOBILE",
+                "stdCode": "+91"
+              }
+            ],
+            "partyEmailDOList": [
+              {
+                "emailAddress": "kjchuri95@gmail.com",
+                "emailTypeCd": "PERSONAL"
+              }
+            ],
+            "partyIdentityDOList": [
+              {
+                
+              }
+            ],
+            "partyQuestionDOList": [
+              
+            ],
+            "relationCd": "SELF",
+            "roleCd": "PRIMARY",
+            "titleCd": "MR"
+          }
+        ],
+        "policyAdditionalFieldsDOList": [
+          {
+            "field1": "Partner_NB_PartnerName",
+            "field10": "xc",
+            "field12": "SISTER",
+            "fieldAgree": "YES",
+            "fieldAlerts": "YES",
+            "fieldTc": "YES"
+          }
+        ],
+        "sumInsured": "001",
+        "term": "1",
+        "isPremiumCalculation": "YES",
+        "addOns": "WBS1146,NCBS1145,AHCS1144"
+      }
+    }
+  }

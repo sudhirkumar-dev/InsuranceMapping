@@ -3,7 +3,7 @@
         "selftitle": "mr",
         "firstname": "sudhir kumar",
         "lastname": "kalivarapu",
-        "birthDate": "14/12/1995",
+        "birthDate": "30/06/1999",
         "addressLine1": "1206",
         "addressLine2": "5",
         "pincode": "535002",
@@ -20,907 +20,853 @@
             "firstName": "sudhir",
             "lastName": "kalivarapu",
             "gender": "MALE",
-            "dob": "14/08/2001",
-            "martialStatus": "married",
+            "dob": "28/11/2023",
+            "maritalStatus": "married",
             "relationship": "self",
-            "height": 200,
-            "weight": 68
+            "height": 125,
+            "weight": 120
         },
         "spouse": {
             "title": "Ms",
             "firstName": "avneet ",
             "lastName": "kaur",
             "gender": "FEMALE",
-            "dob": "12/12/2001",
-            "martialStatus": "married",
+            "dob": "26/11/2023",
+            "maritalStatus": "married",
             "relationship": "spouse",
-            "height": 155,
-            "weight": 55
+            "height": 125,
+            "weight": 125
         },
-        "son": [
-            {
-                "title": "Mr",
-                "firstName": "sweqcwe",
-                "lastName": "KALIVARAPU",
-                "gender": "MALE",
-                "dob": "14/12/2022",
-                "martialStatus": "married",
-                "relationship": "son",
-                "height": 50,
-                "weight": 9
-            }
-        ],
-        "daughter": [
-            {
-                "title": "Ms",
-                "firstName": "xqwqwxq",
-                "lastName": "kalivarapu",
-                "gender": "FEMALE",
-                "dob": "16/03/2023",
-                "martialStatus": "married",
-                "relationship": "daughter",
-                "height": 50,
-                "weight": 9
-            }
-        ]
+        "son1": {
+            "title": "Mr",
+            "firstName": "sweqcwe",
+            "lastName": "omomc",
+            "gender": "MALE",
+            "dob": "26/11/2023",
+            "maritalStatus": "unmarried",
+            "relationship": "son",
+            "height": 145,
+            "weight": 125
+        },
+        "son2": {
+            "title": "Mr",
+            "firstName": "xwqxwxw",
+            "lastName": "kalivarapu",
+            "gender": "MALE",
+            "dob": "12/12/2023",
+            "maritalStatus": "unmarried",
+            "relationship": "son",
+            "height": 155,
+            "weight": 152
+        }
     },
     "nomineeData": {
         "nomineeName": "satwika kalivarapu",
         "nomineeDob": "15/04/2005",
-        "relation": "SISTER"
+        "relation": "SPOUSE"
     },
-    "dataForAPI": {
-        "self": {
-            "checked": "YES",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
+    "dataForAPI": [
+        {
+            "self": [
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": 205,
+                    "response": "YES"
                 },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": "diabetesExistingSince",
+                    "response": "03/2023"
                 },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": 207,
+                    "response": "NO"
                 },
-                "PEDcancerDetails": {
-                    "checked": "YES",
-                    "since": "12/2012"
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": "hyperTensionExistingSince",
+                    "response": ""
                 },
-                "PEDcardiacDetails": {
-                    "checked": "YES",
-                    "since": "1/2018"
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": 232,
+                    "response": "NO"
                 },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": "liverExistingSince",
+                    "response": ""
                 },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": 114,
+                    "response": "NO"
                 },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": "cancerExistingSince",
+                    "response": ""
                 },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": 143,
+                    "response": "NO"
                 },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": "cardiacExistingSince",
+                    "response": ""
                 },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": 105,
+                    "response": "NO"
                 },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": "jointpainExistingSince",
+                    "response": ""
                 },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": 129,
+                    "response": "NO"
                 },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": "kidneyExistingSince",
+                    "response": ""
                 },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": 164,
+                    "response": "NO"
                 },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": "paralysisExistingSince",
+                    "response": ""
                 },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": 122,
+                    "response": "NO"
                 },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": "congenitalExistingSince",
+                    "response": ""
                 },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": 147,
+                    "response": "NO"
                 },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": "hivaidsExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "questionCd": "H001",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "questionCd": "H002",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "questionCd": "H003",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "questionCd": "H004",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": 210,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": "otherExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": 250,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": "respiratoryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": 222,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": "EndocriExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": 502,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": "illnessExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": 503,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": "SurgeryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": 504,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": "SmokeExistingSince",
+                    "response": ""
                 }
-            }
+            ]
         },
-        "spouse": {
-            "checked": "YES",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
+        {
+            "spouse": [
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": 205,
+                    "response": "NO"
                 },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": "diabetesExistingSince",
+                    "response": ""
                 },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": 207,
+                    "response": "YES"
                 },
-                "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": "hyperTensionExistingSince",
+                    "response": "07/2023"
                 },
-                "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": 232,
+                    "response": "NO"
                 },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": "liverExistingSince",
+                    "response": ""
                 },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": 114,
+                    "response": "NO"
                 },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": "cancerExistingSince",
+                    "response": ""
                 },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": 143,
+                    "response": "NO"
                 },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": "cardiacExistingSince",
+                    "response": ""
                 },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": 105,
+                    "response": "NO"
                 },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": "jointpainExistingSince",
+                    "response": ""
                 },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": 129,
+                    "response": "NO"
                 },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": "kidneyExistingSince",
+                    "response": ""
                 },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": 164,
+                    "response": "NO"
                 },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": "paralysisExistingSince",
+                    "response": ""
                 },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": 122,
+                    "response": "NO"
                 },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": "congenitalExistingSince",
+                    "response": ""
                 },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": 147,
+                    "response": "NO"
                 },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": "hivaidsExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "questionCd": "H001",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "questionCd": "H002",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "questionCd": "H003",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "questionCd": "H004",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": 210,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": "otherExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": 250,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": "respiratoryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": 222,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": "EndocriExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": 502,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": "illnessExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": 503,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": "SurgeryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": 504,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": "SmokeExistingSince",
+                    "response": ""
                 }
-            }
+            ]
         },
-        "son": {
-            "checked": "YES",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
+        {
+            "son1": [
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": 205,
+                    "response": "NO"
                 },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": "diabetesExistingSince",
+                    "response": ""
                 },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": 207,
+                    "response": "NO"
                 },
-                "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": "hyperTensionExistingSince",
+                    "response": ""
                 },
-                "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": 232,
+                    "response": "NO"
                 },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": "liverExistingSince",
+                    "response": ""
                 },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": 114,
+                    "response": "NO"
                 },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": "cancerExistingSince",
+                    "response": ""
                 },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": 143,
+                    "response": "YES"
                 },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": "cardiacExistingSince",
+                    "response": "03/2023"
                 },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": 105,
+                    "response": "NO"
                 },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": "jointpainExistingSince",
+                    "response": ""
                 },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": 129,
+                    "response": "NO"
                 },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": "kidneyExistingSince",
+                    "response": ""
                 },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": 164,
+                    "response": "NO"
                 },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": "paralysisExistingSince",
+                    "response": ""
                 },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": 122,
+                    "response": "NO"
                 },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": "congenitalExistingSince",
+                    "response": ""
                 },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": 147,
+                    "response": "NO"
                 },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": "hivaidsExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "questionCd": "H001",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "questionCd": "H002",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "questionCd": "H003",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "questionCd": "H004",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": 210,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": "otherExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": 250,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": "respiratoryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": 222,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": "EndocriExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": 502,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": "illnessExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": 503,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": "SurgeryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": 504,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": "SmokeExistingSince",
+                    "response": ""
                 }
-            }
+            ]
         },
-        "daughter": {
-            "checked": "NO",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
+        {
+            "son2": [
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": 205,
+                    "response": "NO"
                 },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": "diabetesExistingSince",
+                    "response": ""
                 },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": 207,
+                    "response": "NO"
                 },
-                "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": "hyperTensionExistingSince",
+                    "response": ""
                 },
-                "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": 232,
+                    "response": "NO"
                 },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": "liverExistingSince",
+                    "response": ""
                 },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": 114,
+                    "response": "NO"
                 },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": "cancerExistingSince",
+                    "response": ""
                 },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": 143,
+                    "response": "NO"
                 },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": "cardiacExistingSince",
+                    "response": ""
                 },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": 105,
+                    "response": "NO"
                 },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": "jointpainExistingSince",
+                    "response": ""
                 },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": 129,
+                    "response": "YES"
                 },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": "kidneyExistingSince",
+                    "response": "03/2023"
                 },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": 164,
+                    "response": "NO"
                 },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": "paralysisExistingSince",
+                    "response": ""
                 },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": 122,
+                    "response": "NO"
                 },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": "congenitalExistingSince",
+                    "response": ""
                 },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": 147,
+                    "response": "NO"
                 },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": "hivaidsExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "questionCd": "H001",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "questionCd": "H002",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "questionCd": "H003",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "questionCd": "H004",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": 210,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": "otherExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": 250,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": "respiratoryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": 222,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": "EndocriExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": 502,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": "illnessExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": 503,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": "SurgeryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": 504,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": "SmokeExistingSince",
+                    "response": ""
                 }
-            }
-        },
-        "father": {
-            "checked": "NO",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
-                }
-            }
-        },
-        "mother": {
-            "checked": "NO",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
-                }
-            }
-        },
-        "fatherInLaw": {
-            "checked": "NO",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
-                }
-            }
-        },
-        "motherInLaw": {
-            "checked": "NO",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
-                }
-            }
-        },
-        "sonCount": {
-            "checked": "NO",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
-                }
-            }
-        },
-        "daughterCount": {
-            "checked": "NO",
-            "pedDetails": {
-                "PEDdiabetesDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDhyperTensionDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDliverDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcancerDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcardiacDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDjointpainDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDkidneyDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDparalysisDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDcongenitalDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDHivaidsDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthHospitalized": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthClaim": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthDeclined": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "HEDHealthCovered": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDotherDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDRespiratoryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDEndoDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDillnessDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSurgeryDetails": {
-                    "checked": "NO",
-                    "since": ""
-                },
-                "PEDSmokeDetails": {
-                    "checked": "NO",
-                    "since": ""
-                }
-            }
+            ]
         }
-    },
+    ],
     "premiumPostBody": {
         "firstname": "sudhir kumar",
         "lastname": "kalivarapu",
@@ -928,21 +874,16 @@
         "policyType": "Floater",
         "noOfPeople": "4",
         "noOfChildren": "2",
-        "highestElderAge": "28",
+        "highestElderAge": "24",
         "selectedCoverage": "7",
-        "tenure": "2 Year",
+        "tenure": "1 Year",
         "number": "8106039548",
         "familyAges": [
-            "24",
+            "22",
             "2",
             "1"
         ],
-        "productId": "5367",
-        "field_AHC": "0",
-        "field_IC": "0",
-        "field_OPD": "0",
-        "field_43": "0",
-        "field_CS": "0"
+        "productId": 5367
     },
     "ckycNum": "60056830473657"
 }
