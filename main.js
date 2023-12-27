@@ -1,12 +1,12 @@
 import frontEndData from "/frontEndData.json";
-console.log(frontEndData["membersData"],frontEndData["dataForAPI"], "data");
+console.log(frontEndData["membersData"], frontEndData["dataForAPI"], "data");
 
-const createPartyDOList = (membersData,healthData) => {
+const createPartyDOList = (membersData, healthData) => {
   return Object.keys(membersData).map((key, index) => {
     const member = membersData[key];
-    console.log(key,"key")
-    const healthDataOfPerson = healthData.find(item=>item[key]);
-    console.log(healthDataOfPerson[key])
+    console.log(key, "key");
+    const healthDataOfPerson = healthData.find((item) => item[key]);
+    console.log(healthDataOfPerson[key]);
     return {
       birthDt: member.dob,
       firstName: member.firstName,
@@ -50,17 +50,38 @@ const createPartyDOList = (membersData,healthData) => {
           identityTypeCd: "AADHAAR",
         },
       ],
-      partyQuestionDOList:healthDataOfPerson[key]
+      partyQuestionDOList: healthDataOfPerson[key],
     };
   });
 };
 
-const partyDOList = createPartyDOList(frontEndData["membersData"],frontEndData["dataForAPI"]);
+const partyDOList = createPartyDOList(
+  frontEndData["membersData"],
+  frontEndData["dataForAPI"]
+);
 
 const postData = {
   intPolicyDataIO: {
     policy: {
+      businessTypeCd: "NEWBUSINESS",
+      baseProductId: "10001107",
+      baseAgentId: "20008325",
+      coverType: "FAMILYFLOATER",
       partyDOList: partyDOList,
+      policyAdditionalFieldsDOList: [
+        {
+          field1: "PARTNERNAME",
+          field10: "xc",
+          field12: "SISTER-IN-LAW",
+          fieldAgree: "YES",
+          fieldAlerts: "YES",
+          fieldTc: "YES",
+        },
+      ],
+      sumInsured: "018",
+      term: "1",
+      isPremiumCalculation: "YES",
+      addOns: "PREPHECA1150,UECV1153,CAREADWITHNCB",
     },
   },
 };
