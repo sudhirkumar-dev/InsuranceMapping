@@ -1,0 +1,251 @@
+{
+    "proposerData": {
+        "selftitle": "mr",
+        "firstname": "Shivam",
+        "lastname": "Rai",
+        "birthDate": "14/08/2001",
+        "addressLine1": "1206",
+        "addressLine2": "balajihostel",
+        "pincode": "500038",
+        "mobile": "9082680421",
+        "email": "shivamrai5476@gmail.com",
+        "addons": "",
+        "pan": "EZFPR8171B",
+        "generatedCkycNumber": "",
+        "gender": "male"
+    },
+    "membersData": {
+        "self": {
+            "title": "Mr",
+            "firstName": "Shivam",
+            "lastName": "Rai",
+            "gender": "MALE",
+            "dob": "14/08/2001",
+            "relationship": "self",
+            "height": 155,
+            "weight": 55
+        }
+    },
+    "nomineeData": {
+        "nomineeName": "rohit",
+        "nomineeDob": "19/11/2000",
+        "relation": "BROTHER"
+    },
+    "dataForAPI": [
+        {
+            "self": [
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": 205,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": "diabetesExistingSince",
+                    "response": "02/2021"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": 207,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": "hyperTensionExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": 232,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": "liverExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": 114,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": "cancerExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": 143,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": "cardiacExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": 105,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": "jointpainExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": 129,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": "kidneyExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": 164,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": "paralysisExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": 122,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": "congenitalExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": 147,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": "hivaidsExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "questionCd": "H001",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "questionCd": "H002",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "questionCd": "H003",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "questionCd": "H004",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": 210,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": "otherExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": 250,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": "respiratoryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": 222,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": "EndocriExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": 502,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": "illnessExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": 503,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": "SurgeryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": 504,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": "SmokeExistingSince",
+                    "response": ""
+                }
+            ]
+        }
+    ],
+    "premiumPostBody": {
+        "firstname": "Shivam",
+        "lastname": "Rai",
+        "pincode": "500038",
+        "policyType": "Individual",
+        "noOfPeople": "1",
+        "noOfChildren": "0",
+        "highestElderAge": "22",
+        "selectedCoverage": "5",
+        "tenure": "1 Year",
+        "number": "9082680421",
+        "productId": "5367",
+        "field_AHC": "1"
+    },
+    "ckycNum": "20045646177832"
+}

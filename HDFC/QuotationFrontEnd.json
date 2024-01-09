@@ -1,0 +1,22 @@
+{
+    "firstname": "sudhir kumar",
+    "lastname": "kalivarapu",
+    "pincode": "535002",
+    "policyType": "Floater",
+    "noOfPeople": "4",
+    "noOfChildren": "2",
+    "highestElderAge": "24",
+    "selectedCoverage": "10",
+    "tenure": "1 Year",
+    "number": "8106039548",
+    "familyAges": [
+      "23",
+      "3",
+      "3"
+    ],
+    "abacusId": "5367",
+    "field_AHC": 1,
+    "field_IC": 1,
+    "HDFC_criticalIllness":100000,
+    "HDFC_hospitalAddons":2000
+  }

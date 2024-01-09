@@ -1,23 +1,28 @@
+// import frontEndData from "/frontEndDataWithAddons.json";
 import frontEndData from "/individual.json";
-console.log(frontEndData["membersData"], frontEndData["dataForAPI"], "data");
 
-const createPartyDOList = (membersData, healthData) => {
-
+const createPartyDOList = (membersData, healthData, proposerData, ckycNum) => {
   let currentGuidNumber = 6237992;
-  return Object.keys(membersData).map((key) => {
-    const member = membersData[key];
-    const healthDataOfPerson = healthData.find((item) => item[key]);
-    const relationMapping = {
-      spouse: "SPSE",
-      son: "SONM",
-      father: "FATH",
-      monther: "MOTH",
-      daughter: "UDTR",
-      self: "SELF",
-    };
+  const resultArray = [];
+  const relationMapping = {
+    spouse: "SPSE",
+    son: "SONM",
+    father: "FATH",
+    mother: "MOTH",
+    daughter: "UDTR",
+    self: "SELF",
+  };
+
+  const commonAddress = {
+    pinCode: proposerData.pincode,
+    emailAddress: proposerData.email,
+    contactNum: proposerData.mobile,
+  };
+
+  const createPartyObject = (member, healthDataOfPerson, roleCd) => {
     currentGuidNumber += 1;
     const guid = `QN${currentGuidNumber}`;
-    return {
+    const partyObject = {
       birthDt: member.dob,
       firstName: member.firstName,
       genderCd: member.gender,
@@ -28,31 +33,31 @@ const createPartyDOList = (membersData, healthData) => {
           addressLine1Lang1: "1234",
           addressLine2Lang1: "Main Street",
           addressTypeCd: "PERMANENT",
-          areaCd: "Some Area",
-          cityCd: "City",
-          stateCd: "STATE",
-          pinCode: "123456",
+          areaCd: "vizianagaram",
+          cityCd: "vizianagaram",
+          stateCd: "Andhra Pradesh",
+          pinCode: commonAddress.pinCode,
         },
         {
           addressLine1Lang1: "5678",
           addressLine2Lang1: "Secondary Street",
           addressTypeCd: "COMMUNICATION",
-          areaCd: "Another Area",
-          cityCd: "City",
-          pinCode: "543216",
-          stateCd: "STATE",
+          areaCd: "vizianagaram",
+          cityCd: "vizianagaram",
+          pinCode: commonAddress.pinCode,
+          stateCd: "Andhra Pradesh",
         },
       ],
       partyContactDOList: [
         {
-          contactNum: "9876543210",
+          contactNum: commonAddress.contactNum,
           contactTypeCd: "MOBILE",
           stdCode: "+91",
         },
       ],
       partyEmailDOList: [
         {
-          emailAddress: "john.doe@example.com",
+          emailAddress: commonAddress.emailAddress,
           emailTypeCd: "PERSONAL",
         },
       ],
@@ -61,21 +66,61 @@ const createPartyDOList = (membersData, healthData) => {
           identityTypeCd: "PAN",
         },
       ],
-      partyQuestionDOList: healthDataOfPerson[key],
+      partyQuestionDOList: healthDataOfPerson,
       relationCd: relationMapping[member.relationship],
-      roleCd: "PRIMARY",
-      titleCd: member.title,
+      roleCd: roleCd,
+      titleCd: member.title.toUpperCase(),
     };
-  });
+
+    if (roleCd === "PROPOSER") {
+      partyObject.ckyc = "YES";
+      partyObject.ckycNumber = ckycNum;
+      partyObject.guid = resultArray.find(
+        (item) => item.relationCd === "SELF"
+      )?.guid;
+    }
+
+    return partyObject;
+  };
+
+  resultArray.push(
+    ...Object.keys(membersData).map((key) => {
+      const member = membersData[key];
+      const healthDataOfPerson =
+        healthData.find((item) => item.hasOwnProperty(key))?.[key] || [];
+      return createPartyObject(member, healthDataOfPerson, "PRIMARY");
+    })
+  );
+
+  const proposerPartyObject = {
+    dob: proposerData.birthDate,
+    firstName: proposerData.firstname,
+    gender: proposerData.gender,
+    lastName: proposerData.lastname,
+    title: proposerData.selftitle,
+    relationship: "self",
+  };
+  const proposerHealthDataArrayForPerson =
+    healthData.find((data) => data.hasOwnProperty("self"))?.["self"] || [];
+  const proposer = createPartyObject(
+    proposerPartyObject,
+    proposerHealthDataArrayForPerson,
+    "PROPOSER"
+  );
+  resultArray.push(proposer);
+
+  return resultArray;
 };
 
 const createPostData = (
   membersData,
   dataForAPI,
   premiumPostBody,
-  proposerData
+  proposerData,
+  ckycNum,
+  nomineeData
 ) => {
-
+  console.log(nomineeData);
   const premiumCodes = {
     field_AHC: "AHCS1144",
     field_OPD: "COPD1211",
@@ -106,7 +151,7 @@ const createPostData = (
   };
   const coverMapping = {
     Floater: "FAMILYFLOATER",
-    
+    Individual:"INDIVIDUAL",
   };
   const productMapping = {
     2397: "12001002",
@@ -120,12 +165,17 @@ const createPostData = (
         baseProductId: productMapping[premiumPostBody.productId],
         baseAgentId: "20008325",
         coverType: coverMapping[premiumPostBody.policyType],
-        partyDOList: createPartyDOList(membersData, dataForAPI, proposerData),
+        partyDOList: createPartyDOList(
+          membersData,
+          dataForAPI,
+          proposerData,
+          ckycNum
+        ),
         policyAdditionalFieldsDOList: [
           {
-            field1: "PARTNERNAME",
-            field10: "xc",
-            field12: "SISTER-IN-LAW",
+            field1: nomineeData.nomineeName,
+            field10: nomineeData.nomineeDob,
+            field12: nomineeData.relation,
             fieldAgree: "YES",
             fieldAlerts: "YES",
             fieldTc: "YES",
@@ -144,7 +194,9 @@ const postData = createPostData(
   frontEndData["membersData"],
   frontEndData["dataForAPI"],
   frontEndData["premiumPostBody"],
-  frontEndData["proposerData"]
+  frontEndData["proposerData"],
+  frontEndData["ckycNum"],
+  frontEndData["nomineeData"]
 );
 
 console.log(postData);

@@ -1,0 +1,894 @@
+{
+    "proposerData": {
+        "selftitle": "mr",
+        "firstname": "sudhir kumar",
+        "lastname": "kalivarapu",
+        "birthDate": "30/06/1999",
+        "addressLine1": "130/1,k.l.puram",
+        "addressLine2": "5",
+        "pincode": "535002",
+        "mobile": "8106039548",
+        "email": "kalivarapuskumar@gmail.com",
+        "addons": "",
+        "pan": "GSLPK0178N",
+        "generatedCkycNumber": "",
+        "gender": "male"
+    },
+    "membersData": {
+        "self": {
+            "title": "Mr",
+            "firstName": "sudhir kumar",
+            "lastName": "kalivarapu",
+            "gender": "MALE",
+            "dob": "30/06/1999",
+            "maritalStatus": "married",
+            "relationship": "self",
+            "height": 189,
+            "weight": 78
+        },
+        "spouse": {
+            "title": "Ms",
+            "firstName": "avneet ",
+            "lastName": "kaur",
+            "gender": "FEMALE",
+            "dob": "13/12/2000",
+            "maritalStatus": "married",
+            "relationship": "spouse",
+            "height": 175,
+            "weight": 68
+        },
+        "son1": {
+            "title": "Mr",
+            "firstName": "sweqcwe",
+            "lastName": "kalivarapu",
+            "gender": "MALE",
+            "dob": "22/07/2021",
+            "maritalStatus": "unmarried",
+            "relationship": "son",
+            "height": 45,
+            "weight": 4
+        },
+        "son2": {
+            "title": "Mr",
+            "firstName": "xwqxwxw",
+            "lastName": "kalivarapu",
+            "gender": "MALE",
+            "dob": "07/12/2022",
+            "maritalStatus": "unmarried",
+            "relationship": "son",
+            "height": 32,
+            "weight": 2
+        }
+    },
+    "nomineeData": {
+        "nomineeName": "satwika kalivarapu",
+        "nomineeDob": "15/04/2005",
+        "relation": "SISTER"
+    },
+    "dataForAPI": [
+        {
+            "self": [
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": 205,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": "diabetesExistingSince",
+                    "response": "01/2023"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": 207,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": "hyperTensionExistingSince",
+                    "response": "04/2023"
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": 232,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": "liverExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": 114,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": "cancerExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": 143,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": "cardiacExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": 105,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": "jointpainExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": 129,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": "kidneyExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": 164,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": "paralysisExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": 122,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": "congenitalExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": 147,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": "hivaidsExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "questionCd": "H001",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "questionCd": "H002",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "questionCd": "H003",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "questionCd": "H004",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": 210,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": "otherExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": 250,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": "respiratoryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": 222,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": "EndocriExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": 502,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": "illnessExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": 503,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": "SurgeryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": 504,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": "SmokeExistingSince",
+                    "response": ""
+                }
+            ]
+        },
+        {
+            "spouse": [
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": 205,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": "diabetesExistingSince",
+                    "response": "02/2021"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": 207,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": "hyperTensionExistingSince",
+                    "response": "03/2021"
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": 232,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": "liverExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": 114,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": "cancerExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": 143,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": "cardiacExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": 105,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": "jointpainExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": 129,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": "kidneyExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": 164,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": "paralysisExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": 122,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": "congenitalExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": 147,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": "hivaidsExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "questionCd": "H001",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "questionCd": "H002",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "questionCd": "H003",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "questionCd": "H004",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": 210,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": "otherExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": 250,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": "respiratoryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": 222,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": "EndocriExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": 502,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": "illnessExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": 503,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": "SurgeryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": 504,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": "SmokeExistingSince",
+                    "response": ""
+                }
+            ]
+        },
+        {
+            "son1": [
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": 205,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": "diabetesExistingSince",
+                    "response": "02/2021"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": 207,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": "hyperTensionExistingSince",
+                    "response": "01/2020"
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": 232,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": "liverExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": 114,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": "cancerExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": 143,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": "cardiacExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": 105,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": "jointpainExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": 129,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": "kidneyExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": 164,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": "paralysisExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": 122,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": "congenitalExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": 147,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": "hivaidsExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "questionCd": "H001",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "questionCd": "H002",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "questionCd": "H003",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "questionCd": "H004",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": 210,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": "otherExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": 250,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": "respiratoryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": 222,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": "EndocriExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": 502,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": "illnessExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": 503,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": "SurgeryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": 504,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": "SmokeExistingSince",
+                    "response": ""
+                }
+            ]
+        },
+        {
+            "son2": [
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": 205,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDdiabetesDetails",
+                    "questionCd": "diabetesExistingSince",
+                    "response": "04/2022"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": 207,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDhyperTensionDetails",
+                    "questionCd": "hyperTensionExistingSince",
+                    "response": "07/2021"
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": 232,
+                    "response": "YES"
+                },
+                {
+                    "questionSetCd": "PEDliverDetails",
+                    "questionCd": "liverExistingSince",
+                    "response": "03/2023"
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": 114,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcancerDetails",
+                    "questionCd": "cancerExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": 143,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcardiacDetails",
+                    "questionCd": "cardiacExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": 105,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDjointpainDetails",
+                    "questionCd": "jointpainExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": 129,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDkidneyDetails",
+                    "questionCd": "kidneyExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": 164,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDparalysisDetails",
+                    "questionCd": "paralysisExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": 122,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDcongenitalDetails",
+                    "questionCd": "congenitalExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": 147,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDHivaidsDetails",
+                    "questionCd": "hivaidsExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "questionCd": "H001",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthHospitalized",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "questionCd": "H002",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthClaim",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "questionCd": "H003",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthDeclined",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "questionCd": "H004",
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "HEDHealthCovered",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": 210,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDotherDetails",
+                    "questionCd": "otherExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": 250,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDRespiratoryDetails",
+                    "questionCd": "respiratoryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": 222,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDEndoDetails",
+                    "questionCd": "EndocriExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": 502,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDillnessDetails",
+                    "questionCd": "illnessExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": 503,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSurgeryDetails",
+                    "questionCd": "SurgeryExistingSince",
+                    "response": ""
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": 504,
+                    "response": "NO"
+                },
+                {
+                    "questionSetCd": "PEDSmokeDetails",
+                    "questionCd": "SmokeExistingSince",
+                    "response": ""
+                }
+            ]
+        }
+    ],
+    "premiumPostBody": {
+        "firstname": "sudhir kumar",
+        "lastname": "kalivarapu",
+        "pincode": "535002",
+        "policyType": "Floater",
+        "noOfPeople": "4",
+        "noOfChildren": "2",
+        "highestElderAge": "24",
+        "selectedCoverage": "5",
+        "tenure": "1 Year",
+        "number": "8106039548",
+        "familyAges": [
+            "23",
+            "2",
+            "1"
+        ],
+        "productId": "5367",
+        "field_AHC": "1",
+        "field_IC": "1",
+        "field_OPD": "0",
+        "field_43": "0",
+        "field_CS": "1"
+    },
+    "ckycNum": "60056830473657"
+}
